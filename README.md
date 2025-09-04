@@ -10,6 +10,10 @@ curl ynx.ch | sh
 
 That's it. YNX sets up Tor, generates your identity, and starts the chat client automatically.
 
+## Example Session
+
+[![asciicast](https://asciinema.org/a/eWb5feGJN7U8RzGnlSVbEzzU8.svg)](https://asciinema.org/a/eWb5feGJN7U8RzGnlSVbEzzU8)
+
 ## How to Chat
 
 1. Share your YNX address with someone
@@ -30,21 +34,6 @@ That's it. YNX sets up Tor, generates your identity, and starts the chat client 
 **No registration** - Your identity is a cryptographic keypair, nothing more  
 **No metadata** - Tor routing hides who talks to whom  
 **No permanence** - Use temp profiles that vanish when you quit
-
-## Example Session
-
-```
-$ curl ynx.ch | sh
-YNX Ready! Address: 2VmF8K9Xz4j3Nq7BpL5tDwR6eY1Mc8Hs
-
-ynx> /chat 3KsR9Lm2Nx8Qw5Yr7Bt4Cv6Ez1Hj9Mp2
-Starting chat with 3KsR9Lm2Nx8Qw5Yr7Bt4Cv6Ez1Hj9Mp2
-
-you> hello
-they> hey there
-you> this is completely anonymous right?
-they> yep, pure P2P over Tor
-```
 
 ## Technical Details
 
